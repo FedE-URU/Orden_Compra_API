@@ -1,3 +1,8 @@
+[![GitHub](https://img.shields.io/github/last-commit/FedE-URU/Orden_Compra_API?style=flat-square)](https://github.com/FedE-URU/Orden_Compra_API)
+[![GitHub Stars](https://img.shields.io/github/stars/FedE-URU/Orden_Compra_API?style=flat-square)](https://github.com/FedE-URU/Orden_Compra_API/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/FedE-URU/Orden_Compra_API?style=flat-square)](https://github.com/FedE-URU/Orden_Compra_API/network/members)
+[![GitHub Issues](https://img.shields.io/github/issues/FedE-URU/Orden_Compra_API?style=flat-square)](https://github.com/FedE-URU/Orden_Compra_API/issues)
+
 # Orden_Compra_API
 
 Sistema de gestión de órdenes de compra online, siguiendo principios de POO, uso de interfaces, patrones de diseño y arquitectura multicapa.
@@ -53,5 +58,8 @@ Se busca desarrollar un sistema para una empresa intermediaria que:
 
 ## Estructura del proyecto
 
-```plaintext
-Orden_Compra_API/
+
+## Contacto
+
+[![GitHub](https://img.shields.io/badge/GitHub-FedE--URU-blue?style=flat-square&logo=github)](https://github.com/FedE-URU)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-federicoesteves-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/federicoesteves)
