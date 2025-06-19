@@ -4,7 +4,7 @@ Sistema de gestión de órdenes de compra online, siguiendo principios de POO, u
 
 ---
 
-## 📝 Descripción
+## Descripción
 
 Se busca desarrollar un sistema para una empresa intermediaria que:
 
@@ -15,7 +15,7 @@ Se busca desarrollar un sistema para una empresa intermediaria que:
 
 ---
 
-## 💡 Funcionalidades esperadas
+## Funcionalidades esperadas
 
 - Consulta y publicación del catálogo.
 - Registro y autenticación de clientes.
@@ -29,7 +29,7 @@ Se busca desarrollar un sistema para una empresa intermediaria que:
 ## Lenguajes implementados
 
 - [ ] HTML + CSS + JS (Web)
-- [ ] PHP + MySQL (Web)
+- [ ] PHP + MySQL + JavaScript (Web)
 - [ ] Bash
 - [ ] C#
 - [ ] Python
@@ -40,9 +40,8 @@ Se busca desarrollar un sistema para una empresa intermediaria que:
 
 ---
 
-## 🏗 Tecnologías utilizadas
+## Tecnologías utilizadas
 
-- C# y .NET 6+
 - ASP.NET Core Web API
 - Patrón Repository
 - Inyección de dependencias
@@ -52,7 +51,7 @@ Se busca desarrollar un sistema para una empresa intermediaria que:
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```plaintext
 Orden_Compra_API/
