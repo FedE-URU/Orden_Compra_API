@@ -47,7 +47,7 @@ Se busca desarrollar un sistema para una empresa intermediaria que:
 
 ## Tecnologías utilizadas
 
-- ASP.NET Core Web API
+- ASP.NET Core Web API (C#)
 - Patrón Repository
 - Inyección de dependencias
 - Principios SOLID
@@ -55,11 +55,41 @@ Se busca desarrollar un sistema para una empresa intermediaria que:
 - (Opcional) Entity Framework Core
 
 ---
-
 ## Estructura del proyecto
 
+#### PHP + MySQL + JavaScript
 
+```plaintext
+ordenes-compra-php-js/     (Carpeta raíz del proyecto)
+├── backend-php/
+│   ├── config/
+│   │   └── database.php             # Configuración de la conexión a la BD
+│   ├── controllers/
+│   │   ├── ProductosController.php  # Lógica para productos
+│   │   └── OrdenesController.php    # Lógica para órdenes
+│   ├── models/
+│   │   ├── Producto.php             # Clase Producto
+│   │   ├── Orden.php                # Clase Orden
+│   │   └── ItemOrden.php            # Clase Item de Orden
+│   ├── api/
+│   │   ├── productos.php            # Endpoint para obtener productos
+│   │   └── ordenes.php              # Endpoint para procesar órdenes
+│   └── .htaccess                    # Reescritura de URLs (opcional)
+├── frontend-js/
+│   ├── css/
+│   │   └── style.css                # Estilos CSS para la interfaz
+│   ├── js/
+│   │   ├── api.js                   # Funciones para interactuar con la API
+│   │   ├── cart.js                  # Lógica del carrito de compras
+│   │   └── app.js                   # Lógica principal del frontend (eventos, vistas)
+│   └── index.html                   # Página principal del catálogo y checkout
+└── database/
+    └── schema.sql                   # Script SQL para crear la base de datos y tablas
+```
+---
 ## Contacto
 
 [![GitHub](https://img.shields.io/badge/GitHub-FedE--URU-blue?style=flat-square&logo=github)](https://github.com/FedE-URU)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-federicoesteves-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/federicoesteves)
+
+---
