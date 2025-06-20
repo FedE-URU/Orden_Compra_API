@@ -86,6 +86,30 @@ ordenes-compra-php-js/     (Carpeta raíz del proyecto)
 └── database/
     └── schema.sql                   # Script SQL para crear la base de datos y tablas
 ```
+# Pasos para ejecutar (PHP + MySQL + JS)
+
+1.  ### **Configurar la Base de Datos MySQL**
+    * Asegúrate de tener un servidor MySQL funcionando (puedes usar **XAMPP**, **WAMP**, **MAMP**, o una instalación directa de MySQL).
+    * Accede a tu cliente MySQL preferido (por ejemplo, MySQL Workbench, phpMyAdmin o la línea de comandos `mysql`).
+    * Ejecuta el script SQL ubicado en `database/schema.sql` para crear la base de datos y las tablas necesarias, además de insertar algunos datos de ejemplo.
+
+2.  ### **Configurar PHP y el Servidor Web**
+    * Verifica que **PHP** esté correctamente configurado y funcionando con tu servidor web (Apache o Nginx son comunes).
+    * Coloca la carpeta raíz de este proyecto (`ordenes-compra-php-js/`) en el directorio de documentos de tu servidor web (por ejemplo, `htdocs` para Apache XAMPP/WAMP).
+
+3.  ### **Ajustar la Conexión a la Base de Datos**
+    * Abre el archivo `backend-php/config/database.php`.
+    * Modifica el `$username` y `$password` de la base de datos para que coincidan con las credenciales de tu servidor MySQL.
+
+4.  ### **Verificar la URL de la API en el Frontend**
+    * Edita el archivo `frontend-js/js/api.js`.
+    * Asegúrate de que la constante `API_BASE_URL` apunte correctamente a la ruta de tus scripts PHP en el servidor web. Por ejemplo, si colocaste el proyecto en `htdocs/ordenes-compra-php-js/`, la URL debería ser `http://localhost/ordenes-compra-php-js/backend-php/api`.
+
+5.  ### **Acceder al Frontend de la Aplicación**
+    * Una vez que los pasos anteriores estén configurados, abre tu navegador web.
+    * Navega a la siguiente URL para acceder a la interfaz de usuario: `http://localhost/ordenes-compra-php-js/frontend-js/index.html`.
+
+
 ---
 ## Contacto
 
